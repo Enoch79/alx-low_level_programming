@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+Size is not grandeur, and territory does not make a nation

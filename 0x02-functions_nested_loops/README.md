@@ -1,1 +1,1 @@
-printing _putchar, followed by a new line
+printing a file followed by a new line

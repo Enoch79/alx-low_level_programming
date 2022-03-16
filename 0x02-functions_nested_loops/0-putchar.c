@@ -1,13 +1,19 @@
- int _putchar(int c);
- void print_alphabet(void);
- void print_alphabet_x10(void);
- int _islower(int c);
- int _isalpha(int c);
- int print_sign(int n);
- int _abs(int);
- int print_last_digit(int);
- void jack_bauer(void);
- void times_table(void);
- int add(int, int);
- void print_to_98(int n);
- void print_times_table(int n);
+#include "main.h"
+/**
+ * main - Entry point
+ * Description: prints '_putchar \n'
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+char str[] = "_putchar\n";
+int i = 0;
+while (str[i] != '\0')
+	{
+	char c = str[i];
+
+	_putchar(c);
+	i++;
+	}
+return (0);
+}
